@@ -10,4 +10,8 @@
     <artifactId>trip_common</artifactId>
     <packaging>pom</packaging>
     <description>公共父模块，用于管理所有公共子模块</description>
+    <modules>
+        <module>trip_common_core</module>
+        <module>trip_common_redis</module>
+    </modules>
 </project>

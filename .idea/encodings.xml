@@ -5,6 +5,11 @@
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/trip_common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/trip_common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/trip_common/trip_common_core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/trip_common/trip_common_core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/trip_common/trip_common_mysql/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/trip_common/trip_common_mysql/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/trip_common/trip_common_redis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/trip_gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/trip_modules/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/trip_modules/src/main/resources" charset="UTF-8" />

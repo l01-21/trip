@@ -5,6 +5,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/trip_common/trip_common_mysql/pom.xml" />
       </list>
     </option>
   </component>

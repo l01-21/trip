@@ -15,7 +15,6 @@
     </parent>
 
     <modules>
-
         <module>trip_common</module>
         <module>trip_gateway</module>
         <module>trip_modules</module>
@@ -27,6 +26,11 @@
         <spring-boot.version>2.3.2.RELEASE</spring-boot.version>
         <spring-cloud.version>Hoxton.SR8</spring-cloud.version>
         <spring-cloud-alibaba.version>2.2.5.RELEASE</spring-cloud-alibaba.version>
+        <fastjson2.version>2.0.25</fastjson2.version>
+        <commons-lang3.version>3.12.0</commons-lang3.version>
+        <mysql.version>8.0.19</mysql.version>
+        <druid.version>1.2.6</druid.version>
+        <mybatis-plus.version>3.4.0</mybatis-plus.version>
     </properties>
 
     <dependencyManagement>
@@ -45,6 +49,61 @@
                 <version>${spring-cloud-alibaba.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+
+            <!--common模块 子类依赖-->
+            <dependency>
+                <groupId>com.l</groupId>
+                <artifactId>trip_common_core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.l</groupId>
+                <artifactId>trip_common_mysql</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.l</groupId>
+                <artifactId>trip_common_redis</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <!--第三方依赖-->
+            <!-- 阿里JSON解析器 -->
+            <dependency>
+                <groupId>com.alibaba.fastjson2</groupId>
+                <artifactId>fastjson2</artifactId>
+                <version>${fastjson2.version}</version>
+            </dependency>
+
+            <!--apache 工具类-->
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${commons-lang3.version}</version>
+            </dependency>
+
+            <!--mysql -->
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql.version}</version>
+            </dependency>
+
+            <!--druid-->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid-spring-boot-starter</artifactId>
+                <version>${druid.version}</version>
+            </dependency>
+
+            <!--mybatis plus-->
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatis-plus.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
