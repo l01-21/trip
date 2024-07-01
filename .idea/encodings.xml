@@ -13,7 +13,10 @@
     <file url="file://$PROJECT_DIR$/trip_gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/trip_modules/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/trip_modules/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/trip_modules/trip_user_server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/trip_modules/trip_user_server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/trip_modules_api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/trip_modules_api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/trip_modules_api/trip_user_api/src/main/java" charset="UTF-8" />
   </component>
 </project>

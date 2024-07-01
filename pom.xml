@@ -70,6 +70,13 @@
                 <version>${project.version}</version>
             </dependency>
 
+            <!--modules模块 子类依赖-->
+            <dependency>
+                <groupId>com.l</groupId>
+                <artifactId>trip_user_api</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
             <!--第三方依赖-->
             <!-- 阿里JSON解析器 -->
             <dependency>

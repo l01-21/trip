@@ -10,5 +10,27 @@
   <artifactId>trip_modules</artifactId>
   <packaging>pom</packaging>
   <description>所有微服务子模块的统一依赖管理父项目</description>
+    <modules>
+        <module>trip_user_server</module>
+    </modules>
 
+  <dependencies>
+    <!--nacos 注册中心客户端-->
+    <dependency>
+      <groupId>com.alibaba.cloud</groupId>
+      <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+    </dependency>
+
+    <!--nacos配置中心客户端-->
+    <dependency>
+      <groupId>com.alibaba.cloud</groupId>
+      <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+    </dependency>
+
+    <!--spring boot web-->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+  </dependencies>
 </project>

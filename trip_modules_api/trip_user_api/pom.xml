@@ -3,21 +3,21 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.l</groupId>
-        <artifactId>trip_cloud</artifactId>
+        <artifactId>trip_modules_api</artifactId>
         <version>1.0-VERSION</version>
     </parent>
 
-    <artifactId>trip_modules_api</artifactId>
-    <packaging>pom</packaging>
-    <description>所有微服务子模块的 api 父模块，管理所有 api 模块所需的依赖</description>
-    <modules>
-        <module>trip_user_api</module>
-    </modules>
+    <artifactId>trip_user_api</artifactId>
     <dependencies>
+
         <dependency>
             <groupId>com.l</groupId>
-            <artifactId>trip_common_core</artifactId>
+            <artifactId>trip_common_mysql</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.l</groupId>
+            <artifactId>trip_common_redis</artifactId>
         </dependency>
     </dependencies>
-
 </project>
