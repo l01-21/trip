@@ -37,4 +37,22 @@ public class Result<T> {
     public static <T> R<T> fail(T data) {
         return new R<>(ResultConstants.FAIL, ResultConstants.FAIL_MSG, data);
     }
+
+    /**
+     * 服务器内部错误
+     * @return 实例对象
+     */
+    public static <T> R<T> serverError() {
+        return new R<>(ResultConstants.INTERNAL_SERVER_ERROR, ResultConstants.INTERNAL_SERVER_ERROR_MSG, null);
+    }
+
+    /**
+     * 服务器内部错误
+     * @return 实例对象
+     */
+    public static <T> R<T> serverError(int code, String msg) {
+        return new R<>(code, msg, null);
+    }
+
+
 }
